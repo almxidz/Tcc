@@ -1,0 +1,60 @@
+.listaNav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navInfo
+{
+    align-items: center;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 5px;
+    display: flex;
+    height: 70px;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 50px;
+    width: 600px;
+    
+}
+
+.navInfo a
+{
+    color: white;
+    text-decoration: none;
+    padding: 0;
+    transition: 0.5s;
+    border-bottom: 2px solid transparent;
+}
+
+.navInfo a:hover{
+    color: #ff9a00 ;
+    border-bottom: 2px solid #ff9a00;
+}
+
+.icones{
+    margin-right: 100px ;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    color: white;
+}
+
+.icones a{
+    color: white;
+}
+
+video
+{
+    position: fixed;
+    z-index: 1;
+}
+
+.navBar
+{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+
+    
